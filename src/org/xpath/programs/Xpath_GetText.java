@@ -23,7 +23,7 @@ public class Xpath_GetText {
 		String str10 = driver.findElement(By.xpath("/html/body//div/div/div/div/div/div/div[2]/div[3]/div/h4[3]/b")).getText();
 		String str11 = driver.findElement(By.xpath("/html/body//div/div/div/div/div/div/div[2]/div[1]/div/h4[3]/b")).getText();
 		
-		
+	
 		System.out.println(str1);
 		System.out.println(str2);
 		System.out.println(str3);

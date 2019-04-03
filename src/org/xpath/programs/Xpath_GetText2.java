@@ -15,7 +15,6 @@ public class Xpath_GetText2 {
 		driver.get("https://www.guru99.com/");
 
 		String str1 = driver.findElement(By.xpath("//ul[@id='java_technologies']/li[1]/a")).getText();
-
 		String str2 = driver.findElement(By.xpath("//ul[@id='java_technologies']/li[1]/a")).getText();
 		String str3 = driver.findElement(By.xpath("//ul[@id='java_technologies']/li[2]/a")).getText();
 		String str4 = driver.findElement(By.xpath("//ul[@id='java_technologies']/li[3]/a")).getText();
@@ -27,7 +26,6 @@ public class Xpath_GetText2 {
 
 		System.out.println(str1);
 		System.out.println(str2);
-
 		System.out.println(str3);
 		System.out.println(str4);
 		System.out.println(str5);
