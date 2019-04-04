@@ -34,6 +34,8 @@ public class Xpath_GetText2 {
 		System.out.println(str8);
 		System.out.println(str9);
 		System.out.println("end");
+		System.out.println("stmt");
+		
 	}
 
 }
