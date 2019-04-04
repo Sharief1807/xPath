@@ -23,7 +23,7 @@ public class Xpath_GetText2 {
 		String str7 = driver.findElement(By.xpath("//ul[@id='java_technologies']/li[6]/a")).getText();
 		String str8 = driver.findElement(By.xpath("//ul[@id='java_technologies']/li[7]/a")).getText();
 		String str9 = driver.findElement(By.xpath("//ul[@id='java_technologies']/li[8]/a")).getText();
-
+		
 		System.out.println(str1);
 		System.out.println(str2);
 		System.out.println(str3);
@@ -33,6 +33,7 @@ public class Xpath_GetText2 {
 		System.out.println(str7);
 		System.out.println(str8);
 		System.out.println(str9);
+		System.out.println("end");
 	}
 
 }
