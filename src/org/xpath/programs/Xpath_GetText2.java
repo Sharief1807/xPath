@@ -33,8 +33,6 @@ public class Xpath_GetText2 {
 		System.out.println(str7);
 		System.out.println(str8);
 		System.out.println(str9);
-		System.out.println("endddddd");
-		System.out.println("stmttttt");
 	}
 
 }
